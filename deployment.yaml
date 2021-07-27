@@ -16,6 +16,10 @@ spec:
     spec:
       containers:
       - name: nginx
+<<<<<<< HEAD
         image: nextcloud
+=======
+        image: nginx
+>>>>>>> 767979bc8ef974fa6847ac17253b0a88b2d429a1
         ports:
         - containerPort: 80
